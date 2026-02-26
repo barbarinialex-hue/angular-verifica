@@ -1,1 +1,58 @@
-/* You can add global styles to this file, and also import other style files */
+/* Global styles for layout and shared component appearance */
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* page-level reset */
+body, html {
+  margin: 0;
+  padding: 0;
+  background: white;
+  height: 100%;
+}
+
+main.app-root {
+  position: relative;
+  min-height: 100vh;
+  background-color: white;
+}
+
+/* wrapper box positioned in top-left */
+.wrapper {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #7EC8D4; /* powder blue */
+  border-radius: 8px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.component-text {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+/* row styling no icons */
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.colored-app { color: red; }
+.colored-second { color: #007bff; }
+.colored-third { color: #708238; }
+.colored-fourth { color: #f5a623; }
+
+.fourth-box {
+  background-color: white;
+  border: 1px solid #d1d1d1;
+  padding: 1rem;
+  border-radius: 6px;
+}

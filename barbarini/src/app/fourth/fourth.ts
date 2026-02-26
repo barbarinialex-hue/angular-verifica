@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './fourth.html',
-  styleUrl: './fourth.css',
+  styleUrls: ['./fourth.css'],
 })
 export class Fourth {
   public tuo_nome = 'quarto';

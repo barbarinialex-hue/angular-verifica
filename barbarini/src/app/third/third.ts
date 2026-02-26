@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
-import { Fourth } from '../fourth/fourth';
 
 @Component({
   selector: 'app-third',
   standalone: true,
-  imports: [Fourth],
+  imports: [],
   templateUrl: './third.html',
-  styleUrl: './third.css',
+  styleUrls: ['./third.css'],
 })
 export class Third {
   public tuo_nome = 'terzo';
